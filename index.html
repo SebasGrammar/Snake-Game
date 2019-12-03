@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+    <div class="game">
+        <div class="score-section">
+            <h1 class="score-text">Score: <span class="score">0</span></h1>
+            <div class="menu">
+                <label>Grid<input type="checkbox" class="grids"></input></label>
+                <img class="back" src="https://image.flaticon.com/icons/svg/0/340.svg" width="20px" />
+            </div>
+        </div>
+
+        <div class="home-screen">
+            <h1>Snake game</h1>
+            <div class="buttons">
+                <button class="normal">Normal</button>
+                <button class="hard">Hard</button>
+
+            </div>
+        </div>
+
+        <div class="game-board">
+            <h1>Oh, noes! ):</h1>
+            <h2 class="your-score">Your score: <span class="yours"></span></h2>
+            <div class="buttons">
+                <button class="play-again">Go again</button>
+                <button class="go-home">Go home</button>
+            </div>
+        </div>
+        <canvas id="canvas" width="450" height="300">
+
+
+
+        </canvas>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
